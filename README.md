@@ -5,7 +5,7 @@ Data Engineer → Production LLM + Agentic AI Engineer
 5 hours/day | Started: April 10, 2026 | Goal: Ship custom fine-tuned LLMs + agents that no one else can replicate
 
 **Current Phase:** 01 - Karpathy Zero to Hero  
-**Daily Commitment:** 5 focused hours (7:30 PM – 12:30 AM)  
+**Daily Commitment:** 5 focused hours
 **Rule:** One Git commit every single day. No exceptions.
 
 ## Progress Tracker
