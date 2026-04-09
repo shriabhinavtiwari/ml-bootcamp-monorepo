@@ -17,7 +17,6 @@ dependencies = [
     "tavily-python>=0.7.12",
     "textstat",             # no py3.14 classifier; pure Python, likely works
     "vertexai",             # pulls google-cloud-aiplatform ✓ py3.14 compatible
-
     # === Web Framework + API ===
     "fastapi",              # ✓ confirmed py3.14 compatible
     "pydantic",             # ✓ confirmed py3.14 compatible
@@ -27,13 +26,11 @@ dependencies = [
     "requests",             # ✓ confirmed py3.14 compatible
     "sqlalchemy",           # ✗ no py3.14 classifier — high risk, pin to >=2.0.36 and test
     "uvicorn",              # ✓ confirmed py3.14 compatible
-
     # === Notebook Experience ===
     "ipywidgets",           # ✗ no py3.14 classifier (only up to 3.13) — may break
     "jupyter_server",       # likely unverified; ipython (dep) has no py3.14 classifier
     "nbclassic",            # legacy; depends on tornado (✗ no py3.14 classifier)
     "notebook",             # same risk as nbclassic — tornado/ipython deps unverified
-
     # === Data Analysis / Display ===
     "duckdb",               # ✗ no official py3.14 classifier yet; nightly builds only
     "matplotlib",           # ✓ confirmed py3.14 compatible
@@ -41,10 +38,10 @@ dependencies = [
     "seaborn",              # ✗ no py3.14 classifier; depends on matplotlib/pandas (✓) so likely installable
     "tabulate",             # ✓ confirmed py3.14 compatible
     "tinydb",               # pure Python, no binary deps — likely works, unverified classifier
-
     # === Machine Learning / NLP ===
     "jinja2",               # ✗ no py3.14 classifier — used heavily, watch for markupsafe issues
     "psycopg2-binary",      # ✓ confirmed py3.14 compatible
     "scikit-learn",         # ✓ confirmed py3.14 compatible
     "Wikipedia",            # pure Python wrapper, likely works unverified
+    "micrograd>=0.1.0",
 ]
