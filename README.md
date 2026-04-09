@@ -1,6 +1,6 @@
 # ml-bootcamp-monorepo
 
-**Irreplaceable ML Soldier Bootcamp**  
+**Irreplaceable ML Bootcamp**  
 Data Engineer → Production LLM + Agentic AI Engineer  
 5 hours/day | Started: April 10, 2026 | Goal: Ship custom fine-tuned LLMs + agents that no one else can replicate
 
